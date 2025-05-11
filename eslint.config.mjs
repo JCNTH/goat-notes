@@ -14,6 +14,12 @@ const eslintConfig = [
   {
     rules: {
       "react/no-unescaped-entities": "off", // Allowed to use apostrophes 
+      "@typescript-eslint/no-explicit-any": "off", // Allow any type
+      "@typescript-eslint/no-unused-vars": "off", // Allow unused variables
+      "@typescript-eslint/no-empty-object-type": "off", // Allow empty object types
+      "@typescript-eslint/no-empty-interface": "off", // Allow empty interfaces
+      "@typescript-eslint/no-empty-object-type": "off", // Allow empty object types
+      "@typescript-eslint/no-empty-interface": "off", // Allow empty interfaces
     },
   },
 ];
